@@ -4,4 +4,14 @@ body {
 
 img {
     rotate: 0deg;
+    animation: rotate .10s linear infinite
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(10deg)
+    }
 }
